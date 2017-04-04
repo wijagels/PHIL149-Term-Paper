@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage[
+  pdftitle={Corpse Disposal: A Cost-Benefit Analysis},
+  pdfauthor={William Jagels},
+  colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=black,bookmarks=true,
+bookmarksopenlevel=2]{hyperref}
+
+\usepackage[square]{natbib}
+
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+
+
+\begin{document}
+\title{Corpse Disposal: A Cost-Benefit Analysis}
+\author{William Jagels}
+\date{\today}
+\begin{titlepage}
+  \clearpage
+  \maketitle
+  \thispagestyle{empty}
+\end{titlepage}
+
+\section{Introduction}
+2,626,418 people died in the United States in 2014~\cite{mortality}, equivalent to a daily death rate of nearly 7,200.
+Death care is a necessary service as at-home burials are not feasible in an increasingly urbanized country.
+It is critical that the corpse disposal process be environmentally and economically friendly in order to improve the well-being of immediate and future generations.
+This paper will outline a framework for regulatory decisions regarding death care and discuss a methodology for comparing options.
+
+\section{Methodology}
+\subsection{Cost-Benefit Analysis}
+Cost-benefit analysis (CBA) is a good candidate for a discussion of death care as current corpse disposal methods are well-defined and have had sufficient time to be studied.
+However, CBA tends to result in cold-hearted decisions that disregard religious or moral objections to policies.
+As a result, CBA needs to be augmented in order to take into account public opinions.
+The case of death care is especially controversial as any policies enforced by a government will disproportionately affect certain religious or cultural groups.
+CBA also fails to take into account the fluidity of culture and religion over larger time intervals.
+\subsection{Augmented Cost-Benefit Analysis}
+In order to account for cultural and religious objections, we must graft new steps onto traditional cost-benefit analysis\@.
+As CBA is a quantitative approach, it logically follows to continue to use numbers in our new methodology.
+\subsubsection{Identify Groups}
+For each candidate policy, we count the number of individuals who we expect to disagree with the candidate policy.
+As a short example, a policy requiring taxes to be filed online would cause us to count the Amish population along with any other cultures or religions opposed to filling out online forms.
+\subsubsection{Assess Severity}
+Once we have accounted for all the groups opposed to a candidate policy, we assess the degree to which each group is opposed to the candidate policy.
+The degree of opposition can be divided into three categories:
+\begin{enumerate}
+  \item Group is opposed to the candidate policy for economic reasons
+  \item Group is fundamentally opposed to complying with the candidate policy
+  \item Group is fundamentally opposed to the existence of the candidate policy
+\end{enumerate}
+The rationale for including category one is because we can simultaneously account for disproportionate affects on subsets of the population, something that CBA also fails to account for.
+Category three opposition groups are the most worrisome as their well-being will be impacted even if they are excluded from the candidate policy, so we must pay special attention to them in our methodology.
+The severity of a category three group's opposition can be used to quickly throw out a candidate policy that would prompt terrorist action, as terrorism is generally bad for the economy and well-being.
+\subsubsection{Estimate Opposition Decay}
+This step only applies to category two and three opposition groups.
+In order to become more informed, we estimate the rate at which each opposition group is expected to shrink due to gradual acceptance of the candidate policy or other natural trends.
+To compare the strength of a policy's opposition groups over time, we can loosely define a function.
+$$\textrm{Opposition strength of Policy} = \int_{start}^{end} (\textrm{Pop.\ of opposing groups at time }t) dt$$
+Where start is the time the policy is implemented and end is some arbitrary time in the future.
+When comparing two policies, start and end must be the same in order for the strengths to be comparable.
+By integrating over time, we favor a policy whose opposition will reduce quickly over a policy where opposition will remain steady.
+Category 1, 2, and 3 may be compared separately as each group creates different issues, or they can be compared together with some modification.
+We can assign coefficients $\beta, \delta$ to be multipliers for categories 2 \& 3 signifying that group 2 is $\beta$ times worse than category 1 and category 3 is $\delta$ times worse than group 1.
+Naturally these coefficients must be assessed on a case-by-case basis.
+
+\subsubsection{Assess Inequality}
+In order to account for disproportionate effects of a candidate policy, we inspect category one groups.
+Similar to our technique for category two and three, we give greater weight to candidate policies that favor equality in the long run.
+In order to estimate the inequality produced by a candidate policy,
+
+
+\nocite{*}
+
+\bibliographystyle{ieeetr}
+\bibliography{\jobname}
+\end{document}
