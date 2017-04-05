@@ -3,9 +3,9 @@
 \usepackage[english]{babel}
 
 \usepackage[
-  pdftitle={Corpse Disposal: A Cost-Benefit Analysis},
+  pdftitle={Corpse Disposal: A Hybrid Cost-Benefit Analysis},
   pdfauthor={William Jagels},
-  colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=black,bookmarks=true,
+  colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black,bookmarks=true,
 bookmarksopenlevel=2]{hyperref}
 
 \usepackage[square]{natbib}
@@ -15,7 +15,7 @@ bookmarksopenlevel=2]{hyperref}
 
 
 \begin{document}
-\title{Corpse Disposal: A Cost-Benefit Analysis}
+\title{Corpse Disposal: A Hybrid Cost-Benefit Analysis}
 \author{William Jagels}
 \date{\today}
 \begin{titlepage}
@@ -26,9 +26,11 @@ bookmarksopenlevel=2]{hyperref}
 
 \section{Introduction}
 2,626,418 people died in the United States in 2014~\cite{mortality}, equivalent to a daily death rate of nearly 7,200.
-Death care is a necessary service as at-home burials are not feasible in an increasingly urbanized country.
+Death care is an increasingly necessary service as at-home burials are not feasible in an increasingly urbanized country.
+Environmental destruction as a result of death care should not be tolerated if it can be avoided in a fair way.
 It is critical that the corpse disposal process be environmentally and economically friendly in order to improve the well-being of immediate and future generations.
-This paper will outline a framework for regulatory decisions regarding death care and discuss a methodology for comparing options.
+Government intervention can help curb practices harmful to the environment, and death care may be one worthy of intervention.
+This paper will outline a framework for regulatory decisions regarding death care and discuss the application of this framework.
 
 \section{Methodology}
 \subsection{Cost-Benefit Analysis}
@@ -57,7 +59,7 @@ The severity of a category three group's opposition can be used to quickly throw
 \subsubsection{Estimate Opposition Decay}
 This step only applies to category two and three opposition groups.
 In order to become more informed, we estimate the rate at which each opposition group is expected to shrink due to gradual acceptance of the candidate policy or other natural trends.
-To compare the strength of a policy's opposition groups over time, we can loosely define a function.
+To compare the strength of a policy's opposition groups over time, we can loosely define a formula.
 $$\textrm{Opposition strength of Policy} = \int_{start}^{end} (\textrm{Pop.\ of opposing groups at time }t) dt$$
 Where start is the time the policy is implemented and end is some arbitrary time in the future.
 When comparing two policies, start and end must be the same in order for the strengths to be comparable.
@@ -69,11 +71,114 @@ Naturally these coefficients must be assessed on a case-by-case basis.
 \subsubsection{Assess Inequality}
 In order to account for disproportionate effects of a candidate policy, we inspect category one groups.
 Similar to our technique for category two and three, we give greater weight to candidate policies that favor equality in the long run.
-In order to estimate the inequality produced by a candidate policy,
+In order to estimate the inequality produced by a candidate policy, we must consider the category one groups and evaluate whether or not there is a disparity between those who enjoy the benefits and those who are burdened by the policy.
+Ideally, this disparity should be minimized in order to achieve fairness.
 
+\subsubsection{Revise Candidate Plan}
+For each candidate policy, the inequality and opposition groups should be minimized if possible.
+Through compromises such as grandfathering and exemptions, one can reduce the downsides of a policy, thus making it more attractive.
 
-\nocite{*}
+\section{Application of Methodology}
+\subsection{Regulatory Issue}
+The impact of death care on the environment can vary wildly depending on the techniques used for the disposal of the corpse.
+Should governments step in to stop environmentally harmful corpse disposal practices?
+How can we prevent death care from contributing to climate change while still respecting cultural and religious practices?
+\subsection{Burial Techniques}
+\subsubsection{Traditional Vault and Casket Burial}
+In this technique, the body is embalmed and placed in a casket then lowered into a vault typically created with reinforced concrete.
+Costs of burial ``can cost a family upwards of \$10,000''~\cite{cultureandcarbon}.
+$CO_2$ emissions from the vault alone are high, as cement production emits nearly 900kg of $CO_2$ per tonne~\cite{mahasenan2003cement} and a vault requires at least 1.6 tons of concrete~\cite[p.13]{layfield2014life}.
+\subsubsection{Natural Land Burial}
+Natural land burial provides an alternative to traditional burials where the body is buried without a casket or vault.
+The body is encased in a shroud produced with biodegradable materials and buried in a natural setting~\cite{layfield2014life}.
+This technique is far more environmentally friendly as it requires minimal materials and can be performed with minimal disturbance of the burial site.
+Natural burials are also very low cost, around \$800~\cite[p.2]{cultureandcarbon}, an excellent option for low income families in sparsely populated areas.
+\subsubsection{Cremation}
+Cremation uses no land permanently, but it does require the incineration of the corpse --- an energy intensive process.
+Modern developments in cremation have made the process more environmentally friendly but mercury emissions from teeth fillings are still of concern.
+Cremation also destroys physical evidence which may be important in law enforcement~\cite{buschmann2014cremation}.
+Casket-free cremations are also beneficial in terms of the environment and financial cost~\cite[p.4]{cultureandcarbon}.
+\subsubsection{Burial at Sea}
+Burials at sea also take up no permanent land, but their proliferation is limited because of the high costs associated with operating a sufficiently large ship.
+A burial at sea can be very environmentally friendly if performed with a minimalist shroud as the ecosystem of the ocean will readily consume the body.
 
-\bibliographystyle{ieeetr}
+\subsection{Stakeholders}
+Any regulations on death care will directly affect everyone within the jurisdiction of the regulation due to the fact that every person will die.
+Within the population, there are a few category one groups of significance, namely all parties involved in the death care industry.
+Category two and three groups are especially strong in this particular scenario, as religions and cultures tend to have a tradition for dealing with the dead.
+For example, it is well known that both Judaism and Islam are traditionally against cremation, however it is unlikely that members will fall into category three, as the rejection of cremation is focused on members of the religion and not outsiders.
+Hindu customs are also well known to include cremation as the preferred method of disposal.
+
+\subsection{Cost Benefit Analysis}
+\subsubsection{Candidate Proposal}
+\textbf{Proposal: }\textit{Outlaw inefficient burial methods}
+
+Logically, this makes the most sense; the reduction in the death care industry will be outweighed by the lessened financial burden on families who would otherwise pick traditional burials because of cultural or religious pressures.
+Any reduction in carbon emissions can be converted into dollars at a rate of \$220 per ton according to the gro-DICE model~\cite{moore2015temperature}.
+The obvious first choice to be outlawed here is the traditional burial as the technique is very resource intensive, using ``approximately 30 million board feet of hardwoods, 2,700 tons of copper and bronze, 104,272 tons of steel, and 1,636,000 tons of reinforced concrete''~\cite{harker_2012} per year in the United States.
+Assuming that each tonne of concrete embodies 727 kg/tonne~\cite{susconcrete}, this gives us 1,189,372 tons of $CO_2$ which translates to \$261,661,840 of social welfare cost.
+Steel embodies 1.37 tons of $CO_2$ per ton~\cite{embodiedco2}, adding \$3,1427,581.
+With these rough estimates --- not even including the cost of the reinforcement --- we come up with a social welfare cost of over a quarter-billion USD a year due to the concrete and steel put into the ground.
+This is compared to a mere 66.2 kg of $CO_2$ when using a modern Diesel crematorium~\cite{biomassgas} per cremation, or 191,627 tons of $CO_2$ --- \$4,2157,966 of social welfare cost --- if \textit{all} corpses in the US were disposed of this way.
+Not included in this calculation is the destructive nature of formaldehyde, a chemical used in the embalming process that makes its way into the ground surrounding the grave.
+Also not included is the impact of the 30 million board feet of hardwood, as the board foot is a poorly defined unit, however it should be noted that hardwood consumption has a significant impact on the environment.
+
+The costs associated with outlawing traditional burials include a contraction in the death care industry as a result of overall funeral costs being reduced.
+However, I argue that the use of materials in a traditional burial is wasteful and does not add as much value to the economy as a hospital or a school built from those materials.
+As the financial burden of a funeral is placed on the family, any reduction in costs translates to direct savings for individuals who may be forced to take on debt or forego beneficial services.
+
+\subsubsection{Identify Groups}
+As we have established previously, we must account for the groups negatively affected by the outlawing of traditional burials.
+We can get a rough estimate of how many people are in category two or three by examining current statistics for cremations versus burials.
+As noted earlier, some religions and cultures are against cremation, which likely explains why burials are still chosen over cremation.
+These cultural/religious groups have a broad spectrum of compliance with tradition, so it is expected that not all members will be against a policy that their peers are against.
+
+\subsubsection{Assess Severity}
+Any policy contrary to one's beliefs in death care can be especially invasive.
+Individuals who have strong beliefs on death care will be upset by any policies that prevent them from carrying out their beliefs.
+In the United States in particular, the first amendment guarantees religious freedom, and one could argue that outlawing traditional burials infringes upon religious freedom.
+Therefore, it would be logical to create an exemption mechanism for those with beliefs which prohibit them from non-traditional burials.
+
+\subsubsection{Estimate Opposition Decay}
+The National Funeral Directors Association (NFDA) publishes statistics~\cite{cremationstats} that indicate cremation projected to have overtaken burials in 2015.
+We can make the assumption that because cremations are less expensive than a burial, those choosing burial have some reason other than financial to choose a burial.
+Green burials are both less resource intensive and cheaper than a traditional burial, but still more expensive than cremation~\cite{johnson_2013}.
+This leads to the logical conclusion that because cremation is rapidly becoming more popular and that green burials are less expensive than traditional burials, that traditional burials are on their way out.
+This indicates that the number of people in categories two and three is diminishing, and that a policy to stop traditional burial practices would encounter resistance initially, but gradually diminish according to NFDA projections.
+Additionally, I argue that because regulations bring attention to issues, the public will become better educated on the harmfulness of a traditional burial, thereby accelerating the decay of opposing parties.
+
+\subsection{Assess Inequality}
+Inequality in the category one groups will exist, as graveyard owners and staff will almost certainly loose money without necessarily gaining very much \textit{(environmental benefits are hard to notice)} in the short term.
+However, the death care industry will still need to handle the same number of corpses, therefore alternatives such as natural burial and cremation will need to expand in order to absorb these bodies.
+Given that graveyards will still be utilized by those with exemptions, the shift away from graveyards would be gradual, allowing time for those affected to transition to other jobs within or outside of the death care industry.
+
+\subsection{Revise Original Proposal}
+Given that the population will have objections to outlawing traditional burials, this policy needs changes before it can be viable.
+As mentioned, members of religious groups should be entitled to exemptions if their beliefs require a traditional burial.
+Despite the fact that there is an easy way to circumvent the law, its effects should still be noticeable due to the fact that requiring an official exemption can be bundled with educational material on the downsides of a traditional burial.
+Effectively this should increase the rate at which traditional burials are phased out, thereby reducing $CO_2$ emissions and improving social welfare as a result, even further improved by the discount rate.
+By accounting for opposition groups in our augmented version of CBA, we can maintain freedoms while also discouraging behaviors that negatively impact the environment.
+
+\subsection{Conclusion}
+While the above analysis is far from thorough, it presents an example of how the augmented CBA methodology might be applied.
+Accounting for the disproportionate affects of a policy is important in public policy decisions because a big picture view of aggregate well-being ignores inequality and the interests of minority groups.
+Assumptions about the nature of human behavior should be substituted with hard data, and the best efforts possible must be made to quantify the exact effects of any discussed activities.
+However, this is well beyond the scope of this paper as good statistics are not available on the intricacies of death care.
+Other potential policies would have to be explored and compared against each other in order to select the optimal course of action.
+
+\section{Comparison to Other Methodologies}
+\subsection{Cost-Benefit Analysis}
+Our augmented CBA is more applicable in situations where subsets of the population are sensitive to the matter at hand, whereas traditional CBA is better suited for infrastructure decisions.
+The importance of preserving religious and cultural freedoms needs to be taken into account.
+Without incorporating fairness and respect for culture and religion, it is impossible to make a sound choice on anything to do with death care.
+Utilitarianism works very well for small operations where members can exit, such as a corporation, but when it comes to whole countries where the policy applies to all citizens, utilitarianist decision making can unfairly disadvantage minority groups.
+
+\subsection{Precautionary Principle}
+The precautionary principle does not apply very well in this example because this scenario is attempting to stop something that is already known to be environmentally harmful.
+The precautionary principle is better suited for situations where scientific consensus is yet to be reached and in cases where opposing groups have significant incentives to astroturf and deceive policymakers \textit{(ex.\ oil industry)}.
+Although the exact numbers on harmfulness of traditional burials are unclear, it is clear that the embodied $CO_2$ of the materials is more than an order of magnitude worse than cremation or natural burials.
+Using the precautionary principle would not be all that helpful, as the question is whether or not to stop practices, and not whether or not to start new ones.
+
+\bibliographystyle{unsrt}
 \bibliography{\jobname}
 \end{document}
